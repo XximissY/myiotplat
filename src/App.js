@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 ///MyComponants
-import LoginForm from './componants/loginForm/loginPage';
+import LoginForm from './componants/loginForm/loginPage'; 
 
 function App() {
   return (
-    <LoginForm />
+    <>
+    <LoginForm /> 
+    </>
   );
 }
 
